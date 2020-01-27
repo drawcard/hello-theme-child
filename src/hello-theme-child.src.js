@@ -1,4 +1,13 @@
 // Import your JS library dependencies here
-import _ from 'lodash';
+// import _ from 'lodash/core';
 
-// Your custom code goes here
+/**
+ * Hello Theme Child
+ * Custom Javascript
+ */
+
+// Your custom JS code goes here
+
+(function($) {
+  // Your custom jQuery code goes in here
+})(jQuery);
