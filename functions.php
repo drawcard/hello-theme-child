@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Theme functions and definitions
  *
@@ -10,7 +11,8 @@
  *
  * @return void
  */
-function hello_elementor_child_enqueue_scripts() {
+function hello_elementor_child_enqueue_scripts()
+{
 	wp_enqueue_style(
 		'hello-elementor-child-style',
 		get_stylesheet_directory_uri() . '/style.css',
@@ -19,5 +21,7 @@ function hello_elementor_child_enqueue_scripts() {
 		],
 		'1.0.0'
 	);
+	wp_register_script('hello-theme-child', get_stylesheet_directory_uri() . '/dist/hello-theme-child.min.js', '', '', true);
+	wp_enqueue_script('hello-theme-child');
 }
-add_action( 'wp_enqueue_scripts', 'hello_elementor_child_enqueue_scripts' );
+add_action('wp_enqueue_scripts', 'hello_elementor_child_enqueue_scripts');
