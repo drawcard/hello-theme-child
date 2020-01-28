@@ -11,8 +11,4 @@ module.exports = {
     // Set path directory to /dist/
     path: path.resolve(__dirname, 'dist'),
   },
-  module: {
-    // Disable strict mode on /src/ JS file
-    noParse: /src/,
-  },
 };
