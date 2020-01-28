@@ -2,6 +2,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'none',
   // Path to the source file
   entry: './src/hello-theme-child.src.js',
   output: {
@@ -9,5 +10,9 @@ module.exports = {
     filename: 'hello-theme-child.min.js',
     // Set path directory to /dist/
     path: path.resolve(__dirname, 'dist'),
+  },
+  module: {
+    // Disable strict mode on /src/ JS file
+    noParse: /src/,
   },
 };
