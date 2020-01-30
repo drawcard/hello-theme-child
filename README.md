@@ -9,4 +9,4 @@ by Drawcard
 ## Javascript
 
 - Add your imports and custom JS code to `src\hello-theme-child.src.js`
-- `npm run build` runs Webpack and builds `dist\hello-theme-child.min.js`
+- `npm run dev` runs --- and builds `dist\hello-theme-child.min.js`
