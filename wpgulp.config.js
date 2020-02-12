@@ -33,7 +33,7 @@ module.exports = {
 	jsCustomFile: 'custom', // Compiled JS custom file name. Default set to custom i.e. custom.js.
 
 	// Images options.
-	imgSRC: './assets/img/raw/**/*', // Source folder of images which should be optimized and watched. You can also specify types e.g. raw/**.{png,jpg,gif} in the glob.
+	imgSRC: './src/img/raw/**/*', // Source folder of images which should be optimized and watched. You can also specify types e.g. raw/**.{png,jpg,gif} in the glob.
 	imgDST: './assets/img/', // Destination folder of optimized images. Must be different from the imagesSRC folder.
 
 	// Watch files paths.
@@ -47,9 +47,9 @@ module.exports = {
 	translationFile: 'WPGULP.pot', // Name of the translation file.
 	translationDestination: './languages', // Where to save the translation files.
 	packageName: 'WPGULP', // Package name.
-	bugReport: 'https://AhmadAwais.com/contact/', // Where can users report bugs.
-	lastTranslator: 'Ahmad Awais <your_email@email.com>', // Last translator Email ID.
-	team: 'AhmadAwais <your_email@email.com>', // Team's Email ID.
+	bugReport: 'https://drawcard.com.au/', // Where can users report bugs.
+	lastTranslator: 'Drawcard <creative@drawcard.com.au>', // Last translator Email ID.
+	team: 'Drawcard <creative@drawcard.com.au>', // Team's Email ID.
 
 	// Browsers you care about for autoprefixing. Browserlist https://github.com/ai/browserslist
 	// The following list is set as per WordPress requirements. Though, Feel free to change.
