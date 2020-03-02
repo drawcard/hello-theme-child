@@ -1,0 +1,11 @@
+{
+  "name": "hello-theme-child",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@wpackio/scripts": "^4.3.0"
+  },
+  "scripts": {
+    "bootstrap": "wpackio-scripts bootstrap"
+  }
+}
