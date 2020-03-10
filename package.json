@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "@wpackio/scripts": "^4.3.0"
+    "@wpackio/scripts": "^4.3.0",
+    "node-sass": "^4.13.1"
   },
   "scripts": {
-    "bootstrap": "wpackio-scripts bootstrap"
+    "bootstrap": "wpackio-scripts bootstrap",
+    "build": "wpackio-scripts build",
+    "start": "wpackio-scripts start",
+    "archive": "wpackio-scripts pack"
+  },
+  "dependencies": {
+    "@wpackio/entrypoint": "^4.3.0"
   }
 }
