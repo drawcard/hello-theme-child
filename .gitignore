@@ -117,3 +117,7 @@ tmp/
 temp/
 
 # End of https://www.gitignore.io/api/node,composer
+
+## Ignore wpack.io local server file
+## https://wpack.io/guides/getting-started/#generate-server-config-for-team-members
+wpackio.server.js
