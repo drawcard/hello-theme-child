@@ -1,5 +1,7 @@
 {
     "require": {
-        "wpackio/enqueue": "^2.1"
+        "wpackio/enqueue": "^2.1",
+        "soberwp/intervention": "^1.2",
+        "wp-media/rocket-lazy-load": "^2.3"
     }
 }

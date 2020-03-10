@@ -27,3 +27,24 @@ function hello_elementor_child_enqueue_scripts()
 	);
 }
 add_action('wp_enqueue_scripts', 'hello_elementor_child_enqueue_scripts', PHP_INT_MAX);
+
+
+/*
+Integrations
+To disable each integration, delete its block of code below
+*/
+
+/* START Intervention */
+
+use function \Sober\Intervention\intervention;
+
+if (function_exists('\Sober\Intervention\intervention')) {
+	// now you can use the function to call the required modules and their params
+
+	// Allow SVG uploads
+	intervention('add-svg-support', ['admin', 'editor']);
+
+	//Remove 'Howdy'
+	intervention('remove-howdy');
+}
+/* END Intervention */
