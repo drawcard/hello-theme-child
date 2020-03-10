@@ -20,7 +20,7 @@ module.exports = {
   files: [
     // If this has length === 1, then single compiler
     {
-      name: 'helloThemeChild',
+      name: 'app',
       entry: {
         main: ['./src/js/main.js'],
         mobile: ['./src/js/mobile.js'],
